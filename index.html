@@ -1,0 +1,17 @@
+ <!DOCTYPE html>
+<html>
+<title>jquery toggle</title>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();   //toggle("slow") toggle("fast") toggle("5000")
+    });
+});
+
+</script>
+<body>
+    <p>Premendo il bottone a questo paragrafo verra applicato un toggle</p>
+    <button>Toggle</button>
+</body>
+</html> 
